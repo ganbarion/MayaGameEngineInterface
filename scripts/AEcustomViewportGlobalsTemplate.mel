@@ -1,0 +1,41 @@
+//
+// Copyright (c) GANBARION Co., Ltd. All rights reserved.
+// This code is licensed under the MIT License (MIT).
+//
+
+global proc AEcustomViewportGlobalsShaderReloadNew(string $attrName)
+{
+	button	-label "Reload shaders"
+			-annotation "execute customViewportShaderReload."
+			-command "AEcustomViewportGlobalsShaderReload"
+			customViewportShaderReloadButtonAE;
+}
+
+global proc AEcustomViewportGlobalsShaderReloadReplace(string $attrName)
+{
+	// do nothing.
+}
+
+global proc AEcustomViewportGlobalsShaderReload()
+{
+	customViewportShaderReload;
+	inViewMessage -smg "Reload shaders." -pos topRight -bkc 0x007070ff -fade;
+	refresh;
+}
+
+global proc AEcustomViewportGlobalsTemplate(string $name)
+{
+	editorTemplate -beginScrollLayout;
+
+		editorTemplate -beginLayout ("Common") -collapse false;
+			editorTemplate -label ("Debug View") -addControl "bufferView";
+			editorTemplate -label ("FXAA") -addControl "fxaaEnable";
+			editorTemplate -label ("MinBrightness") -addControl "tonemapMinBrightness";
+			editorTemplate -callCustom AEcustomViewportGlobalsShaderReloadNew AEcustomViewportGlobalsShaderReloadReplace "customViewportGlobalsShaderReload";
+		editorTemplate -endLayout;
+
+		editorTemplate -addExtraControls;
+		AEabstractBaseCreateTemplate $name;
+
+	editorTemplate -endScrollLayout;
+}

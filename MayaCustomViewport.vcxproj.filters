@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\bridge\DAGManager.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge\DAGMesh.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge\DAGMaterial.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge\DAGNode.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge\DAGTexture.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge\DAGLight.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge\DAGSettings.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd\ShaderReloadCmd.cpp">
+      <Filter>cmds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge\DAGTransform.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\GPUBuffer.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\GraphicsContext.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\GraphicsCore.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\GraphicsStates.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Shader.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CustomRendererOperation.cpp" />
+    <ClCompile Include="src\CustomViewportMain.cpp" />
+    <ClCompile Include="src\CustomRenderOverride.cpp" />
+    <ClCompile Include="src\MainScene.cpp" />
+    <ClCompile Include="src\nodes\CustomViewportGlobals.cpp">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bridge\DAGManager.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge\DAGMaterial.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge\DAGMesh.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge\DAGNode.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge\DAGTexture.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge\DAGLight.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge\DAGSettings.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cmd\ShaderReloadCmd.h">
+      <Filter>cmds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge\DAGTransform.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Engine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\GPUBuffer.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Graphics.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\GraphicsCommon.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\GraphicsContext.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\GraphicsCore.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\GraphicsStates.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Shader.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ext\picojson\picojson.h">
+      <Filter>ext\picojson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\ShaderConstants.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CustomRendererOperation.h" />
+    <ClInclude Include="src\CustomRenderOverride.h" />
+    <ClInclude Include="src\MainScene.h" />
+    <ClInclude Include="src\nodes\CustomViewportGlobals.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utility.h" />
+    <ClInclude Include="src\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common.h" />
+    <ClInclude Include="src\engine\Math\Math.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{f4fcfa74-eefc-4fd4-a448-516a70ea8ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{fe4b878c-c97b-4128-84b5-1e3bb5e614ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Graphics">
+      <UniqueIdentifier>{2c2f58db-d943-4f32-843f-5c87ab3361e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bridge">
+      <UniqueIdentifier>{d2bcd52f-d645-44f7-9906-5db768710660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{f74456dd-8385-4a2b-bab4-a047f7c22931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\picojson">
+      <UniqueIdentifier>{89f8e0f8-c8a0-468a-a717-ca70b3eb5659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{9adb8194-1da6-4727-98b3-514060ec7d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmds">
+      <UniqueIdentifier>{b0ae626c-ca9b-4ed6-a6cb-6f11ed16dd49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

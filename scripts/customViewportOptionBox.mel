@@ -1,0 +1,23 @@
+//
+// Copyright (c) GANBARION Co., Ltd. All rights reserved.
+// This code is licensed under the MIT License (MIT).
+//
+
+global proc customViewportOptionBox()
+{
+	string $windowName = "customViewportOptionWindow";
+	if (`window -exists $windowName`)
+		deleteUI $windowName;
+
+	string $prefDir = `internalVar -userPrefDir`;
+    string $totalString = $prefDir + "windowPrefs.mel";
+
+	window -menuBar true $windowName;
+
+	createAETabInWindow("customViewportGlobals", $windowName);
+
+	string $windowTitle = "customViewportOptionWindow";
+	window -edit -title $windowTitle
+			-widthHeight 456 670 -topLeftCorner 220 220
+			$windowName;
+}

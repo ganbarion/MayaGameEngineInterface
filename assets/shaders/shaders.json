@@ -1,0 +1,20 @@
+[
+	{
+		"Name": "SimpleMesh",
+		"FileName": "SimpleMesh.fx",
+		"VSEntry": "VS",
+		"PSEntry": "PS"
+	},
+	{
+		"Name": "OneTexture",
+		"FileName": "OneTexture.fx",
+		"VSEntry": "VS",
+		"PSEntry": "PS"
+	},
+	{
+		"Name": "FXAA",
+		"FileName": "FXAA.fx",
+		"VSEntry": "FxaaVS",
+		"PSEntry": "FxaaPS"
+	}
+]
