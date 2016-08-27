@@ -3,7 +3,7 @@ Copyright (c) 2016 GANBARION Co., Ltd.
 
 MayaのViewport2.0をオーバーライドして独自の描画エンジンを用いてMaya上にレンダリングを行うためのMayaと描画エンジンとのインターフェースです。
 
-- CEDEC2016 「[今世代向けプロダクションにおけるアセット製作のための、Mayaへのエンジン組み込み](http://cedec.cesa.or.jp/2016/session/ENG/5635.html)」
+- CEDEC2016 「[今世代向けプロダクションにおけるアセット製作のための、Mayaへのエンジン組み込み](http://cedec.cesa.or.jp/2016/session/ENG/5635.html)」([講演資料(CEDiL)](https://cedil.cesa.or.jp/cedil_sessions/view/1458))
 - AREA JAPAN コラム「[Mayaにゲームエンジンを組み込んでみよう！～効率的なアセット製作環境を目指して～](http://area.autodesk.jp/column/tutorial/maya_game_engine/)」
 
 ## ビルド方法
